@@ -1,0 +1,11 @@
+
+server:
+  port: 8086
+eureka:
+  instance:
+    hostname: slave1
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://master:8088/eureka/,http://slave2:8085/eureka/
