@@ -1,0 +1,31 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://eureka-server-one:8761/eureka/
+      #defaultZone: http://eureka-server-one:8761/eureka/,http://eureka-server-two:8762/eureka/,http://eureka-server-three:8763/eureka/
+server:
+  port: 8161
+management:
+    endpoints:
+      web:
+        exposure:
+          include: refresh,health,info,bus-refresh #开放出去的端口
+spring:
+  application:
+    name: service-config
+  profiles:
+    #本地配置文件
+    active: 
+      #配置文件本地化
+      - native
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: classpath:config/,classpath:config/provider-model/
+  rabbitmq:
+    host: 192.168.113.15
+    port: 5672
+    virtualHost: /vh_test
+    username: admin
+    password: admin

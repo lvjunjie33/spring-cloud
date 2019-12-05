@@ -1,35 +1,54 @@
 eureka:
   client:
     serviceUrl:
-      #defaultZone: http://master:8088/eureka/,http://slave1:8086/eureka/,http://slave2:8085/eureka/
-      defaultZone: http://master:8088/eureka/
+      defaultZone: http://eureka-server-one:8761/eureka/
+      #defaultZone: http://eureka-server-one:8761/eureka/,http://eureka-server-two:8762/eureka/,http://eureka-server-three:8763/eureka/
 server:
-  port: 8078
+  port: 8461
 spring:
   application:
     name: service-zuul
+  zipkin:
+    base-url: http://localhost:9411/
+  sleuth:
+    sampler:
+      probability: 1
 zuul:
   host:
     socket-timeout-millis: 60000
-    connect-timeout-millis: 60000
+    connect-timeout-millis: 30000
   routes:
-    api-ribbon:
-      path: /api-ribbon/**
-      serviceId: service-ribbon
+    api-auth:
+      path: /api-auth/**
+      sensitive-headers:
+      serviceId: service-security
     api-feign:
       path: /api-feign/**
+      sensitive-headers:
       serviceId: service-feign
-    service-web:
-      path: /service-web/**
-      serviceId: service-web
+    api-feign-two:
+      path: /api-feign-two/**
+      sensitive-headers:
+      serviceId: service-feign-two
+  semaphore:
+    max-semaphores: 20000
 ribbon:
-  ReadTimeout: 60000
-  ConnectTimeout: 60000
-   
+  ReadTimeout: 30000
+  ConnectTimeout: 30000
+
+security:
+  oauth2:
+    client:
+      access-token-uri: http://localhost:${server.port}/api-auth/oauth/token
+      user-authorization-uri: http://localhost:${server.port}/api-auth/oauth/authorize
+      client-id: 3nod_system
+    resource:
+      user-info-uri:  http://localhost:${server.port}/api-auth/api/member
+      prefer-token-info: false
 hystrix:
   command:
     default:
       execution:
         isolation:
           thread:
-            timeoutInMilliseconds: 60000
+            timeoutInMilliseconds: 30000

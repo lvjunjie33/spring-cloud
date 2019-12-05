@@ -1,11 +1,15 @@
-
 server:
-  port: 8086
+  port: 8762
+spring:
+  application:
+    name: Eureka-Server
 eureka:
   instance:
-    hostname: slave1
+    #hostname: 192.168.107.241
+    hostname: eureka-server-two
   client:
     registerWithEureka: true
     fetchRegistry: true
     serviceUrl:
-      defaultZone: http://master:8088/eureka/,http://slave2:8085/eureka/
+      #defaultZone: http://192.168.107.242:8763/eureka/,http://192.168.107.145:8761/eureka/
+      defaultZone: http://eureka-server-three:8763/eureka/,http://eureka-server-one:8761/eureka/

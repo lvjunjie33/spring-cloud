@@ -1,0 +1,7 @@
+2019-11-11 15:53:11,927 INFO (SpringApplication.java:654)- No active profile set, falling back to default profiles: default
+2019-11-11 15:53:22,010 DEBUG (GenericFilterBean.java:213)- Initializing filter 'smsCodeFilter'
+2019-11-11 15:53:22,011 DEBUG (GenericFilterBean.java:244)- Filter 'smsCodeFilter' configured successfully
+2019-11-11 15:53:22,013 DEBUG (GenericFilterBean.java:213)- Initializing filter 'loginAuthenticationFilter'
+2019-11-11 15:53:22,014 DEBUG (GenericFilterBean.java:244)- Filter 'loginAuthenticationFilter' configured successfully
+2019-11-11 15:53:22,014 DEBUG (GenericFilterBean.java:213)- Initializing filter 'validateCodeFilter'
+2019-11-11 15:53:22,015 DEBUG (GenericFilterBean.java:244)- Filter 'validateCodeFilter' configured successfully

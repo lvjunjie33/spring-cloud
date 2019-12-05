@@ -1,0 +1,35 @@
+2019-10-15 15:50:23,191 INFO (SpringApplication.java:654)- No active profile set, falling back to default profiles: default
+2019-10-15 15:52:16,784 INFO (SpringApplication.java:654)- No active profile set, falling back to default profiles: default
+2019-10-15 15:57:30,885 INFO (SpringApplication.java:654)- No active profile set, falling back to default profiles: default
+2019-10-15 15:57:46,122 INFO (SpringApplication.java:654)- No active profile set, falling back to default profiles: default
+2019-10-15 15:57:51,634 DEBUG (GenericFilterBean.java:213)- Initializing filter 'loginAuthenticationFilter'
+2019-10-15 15:57:51,635 DEBUG (GenericFilterBean.java:244)- Filter 'loginAuthenticationFilter' configured successfully
+2019-10-15 15:57:51,635 DEBUG (GenericFilterBean.java:213)- Initializing filter 'smsCodeFilter'
+2019-10-15 15:57:51,636 DEBUG (GenericFilterBean.java:244)- Filter 'smsCodeFilter' configured successfully
+2019-10-15 15:57:51,636 DEBUG (GenericFilterBean.java:213)- Initializing filter 'validateCodeFilter'
+2019-10-15 15:57:51,636 DEBUG (GenericFilterBean.java:244)- Filter 'validateCodeFilter' configured successfully
+2019-10-15 15:57:56,702 INFO (StartupInfoLogger.java:59)- Started FeignserverApplication in 11.437 seconds (JVM running for 11.826)
+2019-10-15 16:02:28,857 INFO (SpringApplication.java:654)- No active profile set, falling back to default profiles: default
+2019-10-15 16:02:34,148 DEBUG (GenericFilterBean.java:213)- Initializing filter 'loginAuthenticationFilter'
+2019-10-15 16:02:34,148 DEBUG (GenericFilterBean.java:244)- Filter 'loginAuthenticationFilter' configured successfully
+2019-10-15 16:02:34,148 DEBUG (GenericFilterBean.java:213)- Initializing filter 'smsCodeFilter'
+2019-10-15 16:02:34,149 DEBUG (GenericFilterBean.java:244)- Filter 'smsCodeFilter' configured successfully
+2019-10-15 16:02:34,149 DEBUG (GenericFilterBean.java:213)- Initializing filter 'validateCodeFilter'
+2019-10-15 16:02:34,149 DEBUG (GenericFilterBean.java:244)- Filter 'validateCodeFilter' configured successfully
+2019-10-15 16:02:38,351 INFO (StartupInfoLogger.java:59)- Started FeignserverApplication in 10.355 seconds (JVM running for 10.755)
+2019-10-15 16:06:36,154 INFO (SpringApplication.java:654)- No active profile set, falling back to default profiles: default
+2019-10-15 16:06:42,835 DEBUG (GenericFilterBean.java:213)- Initializing filter 'loginAuthenticationFilter'
+2019-10-15 16:06:42,835 DEBUG (GenericFilterBean.java:244)- Filter 'loginAuthenticationFilter' configured successfully
+2019-10-15 16:06:42,836 DEBUG (GenericFilterBean.java:213)- Initializing filter 'smsCodeFilter'
+2019-10-15 16:06:42,836 DEBUG (GenericFilterBean.java:244)- Filter 'smsCodeFilter' configured successfully
+2019-10-15 16:06:42,836 DEBUG (GenericFilterBean.java:213)- Initializing filter 'validateCodeFilter'
+2019-10-15 16:06:42,837 DEBUG (GenericFilterBean.java:244)- Filter 'validateCodeFilter' configured successfully
+2019-10-15 16:06:47,802 INFO (StartupInfoLogger.java:59)- Started FeignserverApplication in 12.683 seconds (JVM running for 13.217)
+2019-10-15 16:07:24,442 INFO (SpringApplication.java:654)- No active profile set, falling back to default profiles: default
+2019-10-15 16:07:29,706 DEBUG (GenericFilterBean.java:213)- Initializing filter 'loginAuthenticationFilter'
+2019-10-15 16:07:29,707 DEBUG (GenericFilterBean.java:244)- Filter 'loginAuthenticationFilter' configured successfully
+2019-10-15 16:07:29,707 DEBUG (GenericFilterBean.java:213)- Initializing filter 'smsCodeFilter'
+2019-10-15 16:07:29,707 DEBUG (GenericFilterBean.java:244)- Filter 'smsCodeFilter' configured successfully
+2019-10-15 16:07:29,708 DEBUG (GenericFilterBean.java:213)- Initializing filter 'validateCodeFilter'
+2019-10-15 16:07:29,708 DEBUG (GenericFilterBean.java:244)- Filter 'validateCodeFilter' configured successfully
+2019-10-15 16:07:34,153 INFO (StartupInfoLogger.java:59)- Started FeignserverApplication in 10.59 seconds (JVM running for 10.975)

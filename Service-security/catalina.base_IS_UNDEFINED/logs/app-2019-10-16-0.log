@@ -1,0 +1,90 @@
+2019-10-16 17:18:16,919 INFO (SpringApplication.java:654)- No active profile set, falling back to default profiles: default
+2019-10-16 17:18:22,757 DEBUG (GenericFilterBean.java:213)- Initializing filter 'loginAuthenticationFilter'
+2019-10-16 17:18:22,757 DEBUG (GenericFilterBean.java:244)- Filter 'loginAuthenticationFilter' configured successfully
+2019-10-16 17:18:22,758 DEBUG (GenericFilterBean.java:213)- Initializing filter 'smsCodeFilter'
+2019-10-16 17:18:22,758 DEBUG (GenericFilterBean.java:244)- Filter 'smsCodeFilter' configured successfully
+2019-10-16 17:18:22,758 DEBUG (GenericFilterBean.java:213)- Initializing filter 'validateCodeFilter'
+2019-10-16 17:18:22,759 DEBUG (GenericFilterBean.java:244)- Filter 'validateCodeFilter' configured successfully
+2019-10-16 17:25:18,449 INFO (SpringApplication.java:654)- No active profile set, falling back to default profiles: default
+2019-10-16 17:25:24,059 DEBUG (GenericFilterBean.java:213)- Initializing filter 'loginAuthenticationFilter'
+2019-10-16 17:25:24,060 DEBUG (GenericFilterBean.java:244)- Filter 'loginAuthenticationFilter' configured successfully
+2019-10-16 17:25:24,060 DEBUG (GenericFilterBean.java:213)- Initializing filter 'smsCodeFilter'
+2019-10-16 17:25:24,060 DEBUG (GenericFilterBean.java:244)- Filter 'smsCodeFilter' configured successfully
+2019-10-16 17:25:24,060 DEBUG (GenericFilterBean.java:213)- Initializing filter 'validateCodeFilter'
+2019-10-16 17:25:24,061 DEBUG (GenericFilterBean.java:244)- Filter 'validateCodeFilter' configured successfully
+2019-10-16 17:30:29,030 INFO (SpringApplication.java:658)- The following profiles are active: redis
+2019-10-16 17:30:34,219 DEBUG (GenericFilterBean.java:213)- Initializing filter 'loginAuthenticationFilter'
+2019-10-16 17:30:34,220 DEBUG (GenericFilterBean.java:244)- Filter 'loginAuthenticationFilter' configured successfully
+2019-10-16 17:30:34,220 DEBUG (GenericFilterBean.java:213)- Initializing filter 'smsCodeFilter'
+2019-10-16 17:30:34,220 DEBUG (GenericFilterBean.java:244)- Filter 'smsCodeFilter' configured successfully
+2019-10-16 17:30:34,221 DEBUG (GenericFilterBean.java:213)- Initializing filter 'validateCodeFilter'
+2019-10-16 17:30:34,221 DEBUG (GenericFilterBean.java:244)- Filter 'validateCodeFilter' configured successfully
+2019-10-16 17:32:48,454 INFO (SpringApplication.java:658)- The following profiles are active: redis
+2019-10-16 17:32:53,518 DEBUG (GenericFilterBean.java:213)- Initializing filter 'loginAuthenticationFilter'
+2019-10-16 17:32:53,518 DEBUG (GenericFilterBean.java:244)- Filter 'loginAuthenticationFilter' configured successfully
+2019-10-16 17:32:53,519 DEBUG (GenericFilterBean.java:213)- Initializing filter 'smsCodeFilter'
+2019-10-16 17:32:53,519 DEBUG (GenericFilterBean.java:244)- Filter 'smsCodeFilter' configured successfully
+2019-10-16 17:32:53,519 DEBUG (GenericFilterBean.java:213)- Initializing filter 'validateCodeFilter'
+2019-10-16 17:32:53,519 DEBUG (GenericFilterBean.java:244)- Filter 'validateCodeFilter' configured successfully
+2019-10-16 17:32:57,443 INFO (StartupInfoLogger.java:59)- Started SecurityserverApplication in 9.867 seconds (JVM running for 10.255)
+2019-10-16 17:34:53,573 INFO (SpringApplication.java:658)- The following profiles are active: redis
+2019-10-16 17:34:58,929 DEBUG (GenericFilterBean.java:213)- Initializing filter 'loginAuthenticationFilter'
+2019-10-16 17:34:58,930 DEBUG (GenericFilterBean.java:244)- Filter 'loginAuthenticationFilter' configured successfully
+2019-10-16 17:34:58,930 DEBUG (GenericFilterBean.java:213)- Initializing filter 'smsCodeFilter'
+2019-10-16 17:34:58,930 DEBUG (GenericFilterBean.java:244)- Filter 'smsCodeFilter' configured successfully
+2019-10-16 17:34:58,930 DEBUG (GenericFilterBean.java:213)- Initializing filter 'validateCodeFilter'
+2019-10-16 17:34:58,931 DEBUG (GenericFilterBean.java:244)- Filter 'validateCodeFilter' configured successfully
+2019-10-16 17:36:12,431 INFO (SpringApplication.java:658)- The following profiles are active: redis
+2019-10-16 17:36:17,618 DEBUG (GenericFilterBean.java:213)- Initializing filter 'loginAuthenticationFilter'
+2019-10-16 17:36:17,618 DEBUG (GenericFilterBean.java:244)- Filter 'loginAuthenticationFilter' configured successfully
+2019-10-16 17:36:17,619 DEBUG (GenericFilterBean.java:213)- Initializing filter 'smsCodeFilter'
+2019-10-16 17:36:17,619 DEBUG (GenericFilterBean.java:244)- Filter 'smsCodeFilter' configured successfully
+2019-10-16 17:36:17,619 DEBUG (GenericFilterBean.java:213)- Initializing filter 'validateCodeFilter'
+2019-10-16 17:36:17,619 DEBUG (GenericFilterBean.java:244)- Filter 'validateCodeFilter' configured successfully
+2019-10-16 17:38:12,316 INFO (SpringApplication.java:658)- The following profiles are active: redis
+2019-10-16 17:38:17,612 DEBUG (GenericFilterBean.java:213)- Initializing filter 'loginAuthenticationFilter'
+2019-10-16 17:38:17,612 DEBUG (GenericFilterBean.java:244)- Filter 'loginAuthenticationFilter' configured successfully
+2019-10-16 17:38:17,613 DEBUG (GenericFilterBean.java:213)- Initializing filter 'smsCodeFilter'
+2019-10-16 17:38:17,613 DEBUG (GenericFilterBean.java:244)- Filter 'smsCodeFilter' configured successfully
+2019-10-16 17:38:17,613 DEBUG (GenericFilterBean.java:213)- Initializing filter 'validateCodeFilter'
+2019-10-16 17:38:17,614 DEBUG (GenericFilterBean.java:244)- Filter 'validateCodeFilter' configured successfully
+2019-10-16 17:38:56,713 INFO (SpringApplication.java:658)- The following profiles are active: redis
+2019-10-16 17:39:02,005 DEBUG (GenericFilterBean.java:213)- Initializing filter 'loginAuthenticationFilter'
+2019-10-16 17:39:02,005 DEBUG (GenericFilterBean.java:244)- Filter 'loginAuthenticationFilter' configured successfully
+2019-10-16 17:39:02,006 DEBUG (GenericFilterBean.java:213)- Initializing filter 'smsCodeFilter'
+2019-10-16 17:39:02,006 DEBUG (GenericFilterBean.java:244)- Filter 'smsCodeFilter' configured successfully
+2019-10-16 17:39:02,006 DEBUG (GenericFilterBean.java:213)- Initializing filter 'validateCodeFilter'
+2019-10-16 17:39:02,006 DEBUG (GenericFilterBean.java:244)- Filter 'validateCodeFilter' configured successfully
+2019-10-16 17:39:45,620 INFO (SpringApplication.java:654)- No active profile set, falling back to default profiles: default
+2019-10-16 17:39:50,811 DEBUG (GenericFilterBean.java:213)- Initializing filter 'loginAuthenticationFilter'
+2019-10-16 17:39:50,811 DEBUG (GenericFilterBean.java:244)- Filter 'loginAuthenticationFilter' configured successfully
+2019-10-16 17:39:50,812 DEBUG (GenericFilterBean.java:213)- Initializing filter 'smsCodeFilter'
+2019-10-16 17:39:50,812 DEBUG (GenericFilterBean.java:244)- Filter 'smsCodeFilter' configured successfully
+2019-10-16 17:39:50,812 DEBUG (GenericFilterBean.java:213)- Initializing filter 'validateCodeFilter'
+2019-10-16 17:39:50,813 DEBUG (GenericFilterBean.java:244)- Filter 'validateCodeFilter' configured successfully
+2019-10-16 17:39:54,796 INFO (StartupInfoLogger.java:59)- Started SecurityserverApplication in 10.211 seconds (JVM running for 10.6)
+2019-10-16 17:52:16,396 INFO (SpringApplication.java:654)- No active profile set, falling back to default profiles: default
+2019-10-16 17:52:21,589 DEBUG (GenericFilterBean.java:213)- Initializing filter 'loginAuthenticationFilter'
+2019-10-16 17:52:21,590 DEBUG (GenericFilterBean.java:244)- Filter 'loginAuthenticationFilter' configured successfully
+2019-10-16 17:52:21,590 DEBUG (GenericFilterBean.java:213)- Initializing filter 'smsCodeFilter'
+2019-10-16 17:52:21,590 DEBUG (GenericFilterBean.java:244)- Filter 'smsCodeFilter' configured successfully
+2019-10-16 17:52:21,590 DEBUG (GenericFilterBean.java:213)- Initializing filter 'validateCodeFilter'
+2019-10-16 17:52:21,590 DEBUG (GenericFilterBean.java:244)- Filter 'validateCodeFilter' configured successfully
+2019-10-16 17:52:24,943 INFO (StartupInfoLogger.java:59)- Started SecurityserverApplication in 10.498 seconds (JVM running for 10.883)
+2019-10-16 17:53:42,470 DEBUG (AbstractAuthenticationProcessingFilter.java:206)- Request is to process authentication
+2019-10-16 17:53:42,636 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from tz_sys_user where username = ? 
+2019-10-16 17:53:42,667 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: admin(String)
+2019-10-16 17:53:42,718 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2019-10-16 17:53:42,800 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: select * from tz_sys_menu order by order_num 
+2019-10-16 17:53:42,801 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2019-10-16 17:53:42,831 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 104
+2019-10-16 17:53:42,914 DEBUG (AbstractAuthenticationProcessingFilter.java:312)- Authentication success. Updating SecurityContextHolder to contain: org.springframework.security.authentication.UsernamePasswordAuthenticationToken@7354264d: Principal: snod.com.cn.entity.SecurityUser@586034f: Username: admin; Password: [PROTECTED]; Enabled: true; AccountNonExpired: true; credentialsNonExpired: true; AccountNonLocked: true; Granted Authorities: admin:area:delete,admin:area:info,admin:area:list,admin:area:page,admin:area:save,admin:area:update,admin:hotSearch:delete,admin:hotSearch:page,admin:hotSearch:save,admin:hotSearch:update,admin:indexImg:delete,admin:indexImg:info,admin:indexImg:page,admin:indexImg:save,admin:indexImg:update,admin:user:delete,admin:user:info,admin:user:page,admin:user:save,admin:user:update,order:order:delete,order:order:delivery,order:order:info,order:order:page,order:order:pay,order:order:save,order:order:soldExcel,order:order:update,order:order:waitingConsignmentExcel,prod:category:delete,prod:category:info,prod:category:page,prod:category:save,prod:category:update,prod:prod:delete,prod:prod:info,prod:prod:page,prod:prod:save,prod:prod:update,prod:prodComm:delete,prod:prodComm:info,prod:prodComm:page,prod:prodComm:save,prod:prodComm:update,prod:prodTag,prod:prodTag:delete,prod:prodTag:info,prod:prodTag:page,prod:prodTag:save,prod:prodTag:update,prod:spec:delete,prod:spec:info,prod:spec:page,prod:spec:save,prod:spec:update,shop:notice:delete,shop:notice:info,shop:notice:page,shop:notice:save,shop:notice:update,shop:pickAddr:delete,shop:pickAddr:info,shop:pickAddr:page,shop:pickAddr:save,shop:pickAddr:update,shop:shopDetail:info,shop:transcity:info,shop:transfee:delete,shop:transfee:info,shop:transfee:save,shop:transfee:update,shop:transport:delete,shop:transport:info,shop:transport:page,shop:transport:save,shop:transport:update,sys:config:delete,sys:config:info,sys:config:page,sys:config:save,sys:config:update,sys:log:page,sys:menu:delete,sys:menu:info,sys:menu:list,sys:menu:save,sys:menu:select,sys:menu:update,sys:role:delete,sys:role:info,sys:role:list,sys:role:page,sys:role:save,sys:role:update,sys:schedule:delete,sys:schedule:info,sys:schedule:log,sys:schedule:page,sys:schedule:pause,sys:schedule:resume,sys:schedule:run,sys:schedule:save,sys:schedule:update,sys:user:delete,sys:user:info,sys:user:page,sys:user:save,sys:user:update,user:addr:save; Credentials: [PROTECTED]; Authenticated: true; Details: org.springframework.security.web.authentication.WebAuthenticationDetails@7798: RemoteIpAddress: 192.168.107.145; SessionId: null; Granted Authorities: admin:area:delete, admin:area:info, admin:area:list, admin:area:page, admin:area:save, admin:area:update, admin:hotSearch:delete, admin:hotSearch:page, admin:hotSearch:save, admin:hotSearch:update, admin:indexImg:delete, admin:indexImg:info, admin:indexImg:page, admin:indexImg:save, admin:indexImg:update, admin:user:delete, admin:user:info, admin:user:page, admin:user:save, admin:user:update, order:order:delete, order:order:delivery, order:order:info, order:order:page, order:order:pay, order:order:save, order:order:soldExcel, order:order:update, order:order:waitingConsignmentExcel, prod:category:delete, prod:category:info, prod:category:page, prod:category:save, prod:category:update, prod:prod:delete, prod:prod:info, prod:prod:page, prod:prod:save, prod:prod:update, prod:prodComm:delete, prod:prodComm:info, prod:prodComm:page, prod:prodComm:save, prod:prodComm:update, prod:prodTag, prod:prodTag:delete, prod:prodTag:info, prod:prodTag:page, prod:prodTag:save, prod:prodTag:update, prod:spec:delete, prod:spec:info, prod:spec:page, prod:spec:save, prod:spec:update, shop:notice:delete, shop:notice:info, shop:notice:page, shop:notice:save, shop:notice:update, shop:pickAddr:delete, shop:pickAddr:info, shop:pickAddr:page, shop:pickAddr:save, shop:pickAddr:update, shop:shopDetail:info, shop:transcity:info, shop:transfee:delete, shop:transfee:info, shop:transfee:save, shop:transfee:update, shop:transport:delete, shop:transport:info, shop:transport:page, shop:transport:save, shop:transport:update, sys:config:delete, sys:config:info, sys:config:page, sys:config:save, sys:config:update, sys:log:page, sys:menu:delete, sys:menu:info, sys:menu:list, sys:menu:save, sys:menu:select, sys:menu:update, sys:role:delete, sys:role:info, sys:role:list, sys:role:page, sys:role:save, sys:role:update, sys:schedule:delete, sys:schedule:info, sys:schedule:log, sys:schedule:page, sys:schedule:pause, sys:schedule:resume, sys:schedule:run, sys:schedule:save, sys:schedule:update, sys:user:delete, sys:user:info, sys:user:page, sys:user:save, sys:user:update, user:addr:save
+2019-10-16 17:53:43,030 DEBUG (MyAuthenticationSucessHandler.java:78)- 登录成功
+2019-10-16 17:55:52,962 INFO (SpringApplication.java:654)- No active profile set, falling back to default profiles: default
+2019-10-16 17:55:57,857 DEBUG (GenericFilterBean.java:213)- Initializing filter 'loginAuthenticationFilter'
+2019-10-16 17:55:57,858 DEBUG (GenericFilterBean.java:244)- Filter 'loginAuthenticationFilter' configured successfully
+2019-10-16 17:55:57,858 DEBUG (GenericFilterBean.java:213)- Initializing filter 'smsCodeFilter'
+2019-10-16 17:55:57,858 DEBUG (GenericFilterBean.java:244)- Filter 'smsCodeFilter' configured successfully
+2019-10-16 17:55:57,859 DEBUG (GenericFilterBean.java:213)- Initializing filter 'validateCodeFilter'
+2019-10-16 17:55:57,859 DEBUG (GenericFilterBean.java:244)- Filter 'validateCodeFilter' configured successfully
+2019-10-16 17:56:00,925 INFO (StartupInfoLogger.java:59)- Started SecurityserverApplication in 9.931 seconds (JVM running for 10.314)

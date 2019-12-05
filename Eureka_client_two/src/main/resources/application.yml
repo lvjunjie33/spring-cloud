@@ -1,12 +1,17 @@
 
 server:
-  port: 8087
+  port: 8662
 spring:
   application:
-    name: service-web
+    name: service-client
+  zipkin:
+    base-url: http://localhost:9411/
+  sleuth:
+    sampler:
+      probability: 1
     
 eureka:
   client:
     serviceUrl:
-      #defaultZone: http://master:8088/eureka/,http://slave1:8086/eureka/,http://slave2:8085/eureka/
-      defaultZone: http://master:8088/eureka/
+      defaultZone: http://eureka-server-one:8761/eureka/
+      #defaultZone: http://eureka-server-one:8761/eureka/,http://eureka-server-two:8762/eureka/,http://eureka-server-three:8763/eureka/

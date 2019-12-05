@@ -1,0 +1,32 @@
+eureka:
+  client:
+    serviceUrl:
+      #defaultZone: http://master:8088/eureka/,http://slave1:8086/eureka/,http://slave2:8085/eureka/
+      defaultZone: http://eureka-server-one:8761/eureka/,http://eureka-server-two:8762/eureka/,http://eureka-server-three:8763/eureka/
+server:
+  port: 8462
+spring:
+  application:
+    name: service-zuul
+zuul:
+  host:
+    socket-timeout-millis: 60000
+    connect-timeout-millis: 60000
+  routes:
+    api-ribbon:
+      path: /api-ribbon/**
+      serviceId: service-ribbon
+    api-feign:
+      path: /api-feign/**
+      serviceId: service-feign
+ribbon:
+  ReadTimeout: 60000
+  ConnectTimeout: 60000
+   
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 60000

@@ -14,11 +14,11 @@ public class TestController {
     
     
     
-	@RequestMapping("/hi")
+	@RequestMapping("/fein-test")
 	public String home(@RequestParam String name) throws UnknownHostException {
 		InetAddress addr = InetAddress.getLocalHost();
 		String ip = addr.getHostAddress();
 		System.out.println(port);
-		return "本机的IP为"+ip+ "hi"+name+",i am from port:" +port;
+		return "本机的IP为"+ip+ "fein-test"+name+",i am from port:" +port;
 	}
 }
